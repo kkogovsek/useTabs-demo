@@ -301,5 +301,5 @@ export function TabsProvider({ children, tabs, activeTab }) {
   );
 }
 
-window.debug_tabs = false;
+window.debug_tabs = true;
 console.info("To debug tabs set 'window.debug_tabs' to true/false");
